@@ -4,9 +4,9 @@ server:
 spring:
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://mysqldb:3306/final_backend_db
-    username: root
-    password: rootpass
+    url: jdbc:mysql://mysql:3306/final_backend_db
+    username: user
+    password: pass
   jpa:
     database-platform: org.hibernate.dialect.MySQL8Dialect
     show-sql: true
